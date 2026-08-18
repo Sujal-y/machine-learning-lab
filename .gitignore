@@ -1,0 +1,47 @@
+# ===============================
+# Python & Bytecode
+# ===============================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# ===============================
+# Virtual Environments
+# ===============================
+.venv/
+venv/
+ENV/
+env/
+
+# ===============================
+# PyCharm & JetBrains IDE
+# ===============================
+.idea/
+*.iml
+
+# ===============================
+# Jupyter Notebook Checkpoints
+# ===============================
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# ===============================
+# ML Artifacts & Heavy Data
+# ===============================
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.pth
+*.onnx
+
+# (Optional) Ignore raw datasets if they exceed 50MB
+# data/raw/
+# *.csv
+
+# ===============================
+# Operating System Artifacts
+# ===============================
+.DS_Store
+Thumbs.db
